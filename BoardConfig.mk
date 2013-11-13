@@ -97,6 +97,8 @@ BOARD_USES_GENERIC_INVENSENSE := false
 BOARD_WPAN_DEVICE := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/endeavoru/bluetooth
 
+TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
+
 # Recovery
 TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/endeavoru/prebuilt/recovery_kernel
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"

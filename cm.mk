@@ -7,9 +7,6 @@ PRODUCT_RELEASE_NAME := endeavoru
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/pap/config/common_full_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/pap/config/nfc_enhanced.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/htc/endeavoru/full_endeavoru.mk)
 
@@ -24,5 +21,5 @@ PRODUCT_MANUFACTURER := HTC
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=htc_europe \
     TARGET_DEVICE=endeavoru \
-    BUILD_FINGERPRINT="htc/htc_europe/endeavoru:4.4/JDQ39/231174.2:user/release-keys" \
+    BUILD_FINGERPRINT="htc/htc_europe/endeavoru:4.4/KRT16M/231174.2:user/release-keys" \
     PRIVATE_BUILD_DESC="4.18.401.2 CL231174 release-keys"
