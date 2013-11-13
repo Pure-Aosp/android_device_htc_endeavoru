@@ -108,7 +108,7 @@ PRODUCT_PACKAGES += \
     regulatory.bin \
     wlconf
 
-$(call inherit-product, hardware/ti/wlan/mac80211/wl128x-wlan-products.mk)
+#$(call inherit-product, hardware/ti/wlan/mac80211/wl128x-wlan-products.mk)
 
 $(call inherit-product, vendor/htc/endeavoru/endeavoru-vendor.mk)
 
